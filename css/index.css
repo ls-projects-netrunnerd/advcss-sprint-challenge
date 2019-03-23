@@ -160,6 +160,28 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  margin-bottom: 2%;
+  text-align: center;
+}
+.navigation h1 {
+  font-size: 4rem;
+  padding: 2%;
+}
+.navigation .links a {
+  border-radius: 4px;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 1%;
+  padding: 2px 10px;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.5s;
+}
+.navigation .links a:hover {
+  background-color: #22283A;
+  color: #F1F1F1;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +191,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .header-img {
+  border-radius: 5px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +237,9 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
